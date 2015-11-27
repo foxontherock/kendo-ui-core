@@ -4709,6 +4709,34 @@ The number of data items which will be displayed in the grid.
     });
     </script>
 
+### pageable.change `Function`
+
+Fires when the current page has changed.
+
+#### Example - bind change event
+
+    <div id="grid"></div>
+    <script>
+    $("#grid").kendoGrid({
+      columns: [
+        { field: "productName" },
+        { field: "category" }
+      ],
+      dataSource: [
+        { productName: "Tea", category: "Beverages" },
+        { productName: "Coffee", category: "Beverages" },
+        { productName: "Ham", category: "Food" },
+        { productName: "Bread", category: "Food" }
+      ],
+      pageable: {
+        pageSize: 2,
+        change: function() {
+            console.log("pager change event");
+        }
+      }
+    });
+    </script>
+    
 ### pageable.previousNext `Boolean` *(default: true)*
 
 If set to `true` the pager will display buttons for going to the first, previous, next and last pages. By default those buttons are displayed.
