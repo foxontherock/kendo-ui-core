@@ -1969,6 +1969,8 @@ Triggered when the user moves the focus on another node
 
 The focused node
 
+> Please note that this event is only raised from keyboard navigation.
+
 #### Example - subscribe to the "navigate" event during initialization
 
     <div id="treeview"></div>
