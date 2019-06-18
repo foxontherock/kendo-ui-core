@@ -10,7 +10,7 @@ position: 2
 
 The [Kendo UI Templates](http://demos.telerik.com/kendo-ui/templates/index) enable you to improve immensely the performance of your project.  
 
-With JavaScript applications running on a myriad of low-power devices, such as phones and tablets, it is essential that applications squeeze every last bit of performance out of their code. Code that may look fine on a desktop browser like Chrome can crawl on a tablet if not carefully engineered. While the Kendo UI Templates do not offer as many features as other JavaScript templating libraries, they do so intentionally to deliver better performance. Depending on the browser and computer (templates run on the client machine, so naturally there are variances), Kendo UI Templates are up to 60 times (6000%) faster than jQuery templates. To compare performance results directly, [refer to the live JSPerf test](http://jsperf.com/dom-vs-innerhtml-based-templating/509).
+With JavaScript applications running on a myriad of low-power devices, such as phones and tablets, it is essential that applications squeeze every last bit of performance out of their code. Code that may look fine on a desktop browser like Chrome can crawl on a tablet if not carefully engineered. While the Kendo UI Templates do not offer as many features as other JavaScript templating libraries, they do so intentionally to deliver better performance. Depending on the browser and computer (templates run on the client machine, so naturally there are variances), Kendo UI Templates are up to 60 times (6000%) faster than jQuery templates. To compare performance results directly, [refer to the live JSPerf test](https://jsperf.com/dom-vs-innerhtml-based-templating/1102).
 
 ## Basic Techniques
 
@@ -22,7 +22,7 @@ Kendo UI achieves high performance templates through the use of several techniqu
 
 ## Comparing Performance
 
-Performance claims are never set in stone as libraries are evolving all the time. You can see where Kendo UI Templates stands in comparison to some of the common options like Handlebars, Mustache, jQuery Templates (now deprecated), Underscore JS, and John's original micro-templating implementation by using the [JavaScript templating engine shootout](http://jsperf.com/dom-vs-innerhtml-based-templating/509) JSPerf test.
+Performance claims are never set in stone as libraries are evolving all the time. You can see where Kendo UI Templates stands in comparison to some of the common options like Handlebars, Mustache, jQuery Templates (now deprecated), Underscore JS, and John's original micro-templating implementation by using the [JavaScript templating engine shootout](https://jsperf.com/dom-vs-innerhtml-based-templating/1102) JSPerf test.
 
 > JSPerf is a great tool to use for quick, relative performance tests between JavaScript libraries and snippets. Anyone can create or modify a JSPerf test to test and compare the performance of JavaScript code across many different browsers and machines.
 
