@@ -1118,7 +1118,8 @@ Indicates whether the close action was triggered by the user either by clicking 
     <script>
     $("#dialog").kendoWindow({
       close: function(e) {
-        // the closing animation has finished
+        // the closing animation has not started, closing can be stopped
+        e.preventDefault();
       }
     });
     </script>
@@ -1128,7 +1129,8 @@ Indicates whether the close action was triggered by the user either by clicking 
     <div id="dialog"></div>
     <script>
     function window_close(e) {
-      // the closing animation has finished
+      // the closing animation has not started, closing can be stopped
+      e.preventDefault();
     }
     $("#dialog").kendoWindow();
     var dialog = $("#dialog").data("kendoWindow");
